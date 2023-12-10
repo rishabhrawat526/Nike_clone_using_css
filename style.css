@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeaf2;
+}
+.nav-logo1{
+    margin-left: 47px;
+    object-fit: fill;
+}
+#img-logo{
+    width: 28px;
+  height: 34px;
+  padding: 6px;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    margin-right: 58px;
+}
+li{
+    padding: 7px;
+    font-size: 0.73em;
+    font-weight: 700;
+}
+
+/* header 2 */
+.header2{
+    
+}
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    align-items: center;
+
+}
+.nav2-item1{
+    margin-left: 49px;
+  padding-top: 7px;
+}
+.nav2-item2{
+    display: flex;
+    align-items: center;
+    width: 74vw;
+  justify-content: space-between;
+  position: relative;
+  left: 60px;
+
+}
+.nav2-item2-list{
+    display: flex;
+    list-style-type: none;
+    width: 47vw;
+    margin-left: 13vw;
+
+}
+.nav2-li{
+    font-size: 1.02em;
+    padding: 12px;
+}
+.nav2-item3{
+    display:flex;
+    align-items: center;
+    width: 145px;
+    justify-content: space-around;
+    gap: 10px;
+    
+}
+.nav2-logo-img{
+    width: 40px;
+    height: 50px;
+}
+.search-bar-header2{
+    height: 20px;
+}
+.search-box{
+    background-color: white;
+    padding: 5px;
+  border-radius: 11px;
+  
+}
+.main{
+    height: 100vh;
+    background-color:#eeeaf2;
+}
+.below-nav2{
+   
+   background-color:#eeeaf2 ;
+}
+.card-scroller{
+    display: flex;
+    width: 90vw;
+  overflow-x: scroll;
+  margin: auto;
+  margin-top: 41px;
+  gap: 60px;
+
+}
+.video-ad{
+    width: 90vw;
+    margin:auto;
+
+}
+.footer{
+    margin-top: 115px;
+    background-color: black;
+    color: white;
+    height: 400px;
+}
+.one-foot{
+    display: flex;
+    gap: 160px;
+    padding: 68px;
+}
+.one{
+display: flex;
+flex-direction: column;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+}
+.three{
+    display: flex;flex-direction: column;
+}
+.four{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 350px;
+}
